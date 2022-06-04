@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B673D20284B75AB00BC3AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D1F284B75AB00BC3AC4 /* AppDelegate.swift */; };
+		2B673D22284B75AB00BC3AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D21284B75AB00BC3AC4 /* SceneDelegate.swift */; };
+		2B673D24284B75AB00BC3AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D23284B75AB00BC3AC4 /* ViewController.swift */; };
+		2B673D27284B75AB00BC3AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B673D25284B75AB00BC3AC4 /* Main.storyboard */; };
+		2B673D2A284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D28284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodeld */; };
+		2B673D2C284B75AC00BC3AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B673D2B284B75AC00BC3AC4 /* Assets.xcassets */; };
+		2B673D2F284B75AC00BC3AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B673D2D284B75AC00BC3AC4 /* LaunchScreen.storyboard */; };
+		2B673D3A284B75AC00BC3AC4 /* VoiroMovieaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D39284B75AC00BC3AC4 /* VoiroMovieaTests.swift */; };
+		2B673D44284B75AD00BC3AC4 /* VoiroMovieaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D43284B75AD00BC3AC4 /* VoiroMovieaUITests.swift */; };
+		2B673D46284B75AD00BC3AC4 /* VoiroMovieaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D45284B75AD00BC3AC4 /* VoiroMovieaUITestsLaunchTests.swift */; };
+		2B673D54284B768800BC3AC4 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D53284B768800BC3AC4 /* APIConstants.swift */; };
+		2B673D57284B78F500BC3AC4 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D56284B78F500BC3AC4 /* MoviesModel.swift */; };
+		2B673D59284B7A5B00BC3AC4 /* ExtrainfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D58284B7A5B00BC3AC4 /* ExtrainfoModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B673D36284B75AC00BC3AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B673D14284B75AB00BC3AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B673D1B284B75AB00BC3AC4;
+			remoteInfo = VoiroMoviea;
+		};
+		2B673D40284B75AD00BC3AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B673D14284B75AB00BC3AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B673D1B284B75AB00BC3AC4;
+			remoteInfo = VoiroMoviea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B673D1C284B75AB00BC3AC4 /* VoiroMoviea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiroMoviea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B673D1F284B75AB00BC3AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B673D21284B75AB00BC3AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B673D23284B75AB00BC3AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B673D26284B75AB00BC3AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B673D29284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiroMoviea.xcdatamodel; sourceTree = "<group>"; };
+		2B673D2B284B75AC00BC3AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B673D2E284B75AC00BC3AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B673D30284B75AC00BC3AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B673D35284B75AC00BC3AC4 /* VoiroMovieaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiroMovieaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B673D39284B75AC00BC3AC4 /* VoiroMovieaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiroMovieaTests.swift; sourceTree = "<group>"; };
+		2B673D3F284B75AD00BC3AC4 /* VoiroMovieaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiroMovieaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B673D43284B75AD00BC3AC4 /* VoiroMovieaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiroMovieaUITests.swift; sourceTree = "<group>"; };
+		2B673D45284B75AD00BC3AC4 /* VoiroMovieaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiroMovieaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B673D53284B768800BC3AC4 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		2B673D56284B78F500BC3AC4 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		2B673D58284B7A5B00BC3AC4 /* ExtrainfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrainfoModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B673D19284B75AB00BC3AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B673D32284B75AC00BC3AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B673D3C284B75AD00BC3AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B673D13284B75AB00BC3AC4 = {
+			isa = PBXGroup;
+			children = (
+				2B673D1E284B75AB00BC3AC4 /* VoiroMoviea */,
+				2B673D38284B75AC00BC3AC4 /* VoiroMovieaTests */,
+				2B673D42284B75AD00BC3AC4 /* VoiroMovieaUITests */,
+				2B673D1D284B75AB00BC3AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B673D1D284B75AB00BC3AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B673D1C284B75AB00BC3AC4 /* VoiroMoviea.app */,
+				2B673D35284B75AC00BC3AC4 /* VoiroMovieaTests.xctest */,
+				2B673D3F284B75AD00BC3AC4 /* VoiroMovieaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B673D1E284B75AB00BC3AC4 /* VoiroMoviea */ = {
+			isa = PBXGroup;
+			children = (
+				2B673D55284B78D400BC3AC4 /* Models */,
+				2B673D52284B766200BC3AC4 /* Helpers */,
+				2B673D1F284B75AB00BC3AC4 /* AppDelegate.swift */,
+				2B673D21284B75AB00BC3AC4 /* SceneDelegate.swift */,
+				2B673D23284B75AB00BC3AC4 /* ViewController.swift */,
+				2B673D25284B75AB00BC3AC4 /* Main.storyboard */,
+				2B673D2B284B75AC00BC3AC4 /* Assets.xcassets */,
+				2B673D2D284B75AC00BC3AC4 /* LaunchScreen.storyboard */,
+				2B673D30284B75AC00BC3AC4 /* Info.plist */,
+				2B673D28284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodeld */,
+			);
+			path = VoiroMoviea;
+			sourceTree = "<group>";
+		};
+		2B673D38284B75AC00BC3AC4 /* VoiroMovieaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B673D39284B75AC00BC3AC4 /* VoiroMovieaTests.swift */,
+			);
+			path = VoiroMovieaTests;
+			sourceTree = "<group>";
+		};
+		2B673D42284B75AD00BC3AC4 /* VoiroMovieaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B673D43284B75AD00BC3AC4 /* VoiroMovieaUITests.swift */,
+				2B673D45284B75AD00BC3AC4 /* VoiroMovieaUITestsLaunchTests.swift */,
+			);
+			path = VoiroMovieaUITests;
+			sourceTree = "<group>";
+		};
+		2B673D52284B766200BC3AC4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2B673D53284B768800BC3AC4 /* APIConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2B673D55284B78D400BC3AC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B673D56284B78F500BC3AC4 /* MoviesModel.swift */,
+				2B673D58284B7A5B00BC3AC4 /* ExtrainfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B673D1B284B75AB00BC3AC4 /* VoiroMoviea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B673D49284B75AD00BC3AC4 /* Build configuration list for PBXNativeTarget "VoiroMoviea" */;
+			buildPhases = (
+				2B673D18284B75AB00BC3AC4 /* Sources */,
+				2B673D19284B75AB00BC3AC4 /* Frameworks */,
+				2B673D1A284B75AB00BC3AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiroMoviea;
+			productName = VoiroMoviea;
+			productReference = 2B673D1C284B75AB00BC3AC4 /* VoiroMoviea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B673D34284B75AC00BC3AC4 /* VoiroMovieaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B673D4C284B75AD00BC3AC4 /* Build configuration list for PBXNativeTarget "VoiroMovieaTests" */;
+			buildPhases = (
+				2B673D31284B75AC00BC3AC4 /* Sources */,
+				2B673D32284B75AC00BC3AC4 /* Frameworks */,
+				2B673D33284B75AC00BC3AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B673D37284B75AC00BC3AC4 /* PBXTargetDependency */,
+			);
+			name = VoiroMovieaTests;
+			productName = VoiroMovieaTests;
+			productReference = 2B673D35284B75AC00BC3AC4 /* VoiroMovieaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B673D3E284B75AD00BC3AC4 /* VoiroMovieaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B673D4F284B75AD00BC3AC4 /* Build configuration list for PBXNativeTarget "VoiroMovieaUITests" */;
+			buildPhases = (
+				2B673D3B284B75AD00BC3AC4 /* Sources */,
+				2B673D3C284B75AD00BC3AC4 /* Frameworks */,
+				2B673D3D284B75AD00BC3AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B673D41284B75AD00BC3AC4 /* PBXTargetDependency */,
+			);
+			name = VoiroMovieaUITests;
+			productName = VoiroMovieaUITests;
+			productReference = 2B673D3F284B75AD00BC3AC4 /* VoiroMovieaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B673D14284B75AB00BC3AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2B673D1B284B75AB00BC3AC4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2B673D34284B75AC00BC3AC4 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2B673D1B284B75AB00BC3AC4;
+					};
+					2B673D3E284B75AD00BC3AC4 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2B673D1B284B75AB00BC3AC4;
+					};
+				};
+			};
+			buildConfigurationList = 2B673D17284B75AB00BC3AC4 /* Build configuration list for PBXProject "VoiroMoviea" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B673D13284B75AB00BC3AC4;
+			productRefGroup = 2B673D1D284B75AB00BC3AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B673D1B284B75AB00BC3AC4 /* VoiroMoviea */,
+				2B673D34284B75AC00BC3AC4 /* VoiroMovieaTests */,
+				2B673D3E284B75AD00BC3AC4 /* VoiroMovieaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B673D1A284B75AB00BC3AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B673D2F284B75AC00BC3AC4 /* LaunchScreen.storyboard in Resources */,
+				2B673D2C284B75AC00BC3AC4 /* Assets.xcassets in Resources */,
+				2B673D27284B75AB00BC3AC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B673D33284B75AC00BC3AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B673D3D284B75AD00BC3AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B673D18284B75AB00BC3AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B673D2A284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodeld in Sources */,
+				2B673D54284B768800BC3AC4 /* APIConstants.swift in Sources */,
+				2B673D57284B78F500BC3AC4 /* MoviesModel.swift in Sources */,
+				2B673D24284B75AB00BC3AC4 /* ViewController.swift in Sources */,
+				2B673D20284B75AB00BC3AC4 /* AppDelegate.swift in Sources */,
+				2B673D22284B75AB00BC3AC4 /* SceneDelegate.swift in Sources */,
+				2B673D59284B7A5B00BC3AC4 /* ExtrainfoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B673D31284B75AC00BC3AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B673D3A284B75AC00BC3AC4 /* VoiroMovieaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B673D3B284B75AD00BC3AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B673D44284B75AD00BC3AC4 /* VoiroMovieaUITests.swift in Sources */,
+				2B673D46284B75AD00BC3AC4 /* VoiroMovieaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B673D37284B75AC00BC3AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B673D1B284B75AB00BC3AC4 /* VoiroMoviea */;
+			targetProxy = 2B673D36284B75AC00BC3AC4 /* PBXContainerItemProxy */;
+		};
+		2B673D41284B75AD00BC3AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B673D1B284B75AB00BC3AC4 /* VoiroMoviea */;
+			targetProxy = 2B673D40284B75AD00BC3AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B673D25284B75AB00BC3AC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B673D26284B75AB00BC3AC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B673D2D284B75AC00BC3AC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B673D2E284B75AC00BC3AC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B673D47284B75AD00BC3AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B673D48284B75AD00BC3AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B673D4A284B75AD00BC3AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiroMoviea/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.-VoiroMoviea.VoiroMoviea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B673D4B284B75AD00BC3AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiroMoviea/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.-VoiroMoviea.VoiroMoviea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B673D4D284B75AD00BC3AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.-VoiroMoviea.VoiroMovieaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiroMoviea.app/VoiroMoviea";
+			};
+			name = Debug;
+		};
+		2B673D4E284B75AD00BC3AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.-VoiroMoviea.VoiroMovieaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiroMoviea.app/VoiroMoviea";
+			};
+			name = Release;
+		};
+		2B673D50284B75AD00BC3AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.-VoiroMoviea.VoiroMovieaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiroMoviea;
+			};
+			name = Debug;
+		};
+		2B673D51284B75AD00BC3AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.-VoiroMoviea.VoiroMovieaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoiroMoviea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B673D17284B75AB00BC3AC4 /* Build configuration list for PBXProject "VoiroMoviea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B673D47284B75AD00BC3AC4 /* Debug */,
+				2B673D48284B75AD00BC3AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B673D49284B75AD00BC3AC4 /* Build configuration list for PBXNativeTarget "VoiroMoviea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B673D4A284B75AD00BC3AC4 /* Debug */,
+				2B673D4B284B75AD00BC3AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B673D4C284B75AD00BC3AC4 /* Build configuration list for PBXNativeTarget "VoiroMovieaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B673D4D284B75AD00BC3AC4 /* Debug */,
+				2B673D4E284B75AD00BC3AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B673D4F284B75AD00BC3AC4 /* Build configuration list for PBXNativeTarget "VoiroMovieaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B673D50284B75AD00BC3AC4 /* Debug */,
+				2B673D51284B75AD00BC3AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B673D28284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B673D29284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodel */,
+			);
+			currentVersion = 2B673D29284B75AB00BC3AC4 /* VoiroMoviea.xcdatamodel */;
+			path = VoiroMoviea.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B673D14284B75AB00BC3AC4 /* Project object */;
+}
