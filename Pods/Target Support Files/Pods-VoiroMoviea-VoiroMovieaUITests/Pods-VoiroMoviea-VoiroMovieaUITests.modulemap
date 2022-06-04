@@ -1,0 +1,6 @@
+framework module Pods_VoiroMoviea_VoiroMovieaUITests {
+  umbrella header "Pods-VoiroMoviea-VoiroMovieaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
