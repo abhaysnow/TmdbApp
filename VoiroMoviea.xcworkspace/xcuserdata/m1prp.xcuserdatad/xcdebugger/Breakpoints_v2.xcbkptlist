@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BC5FE2D7-7EBE-4F91-9E88-849237FE2D66"
+            uuid = "517A9151-93EA-47CC-923A-665908F2B935"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VoiroMoviea/ViewModel/MoviesVM.swift"
+            filePath = "VoiroMoviea/coreData /MoviesCD+CoreDataClass.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "moviesListApi(completion:)"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "saveDataInCoreData(dataForSave:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

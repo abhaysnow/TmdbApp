@@ -25,6 +25,7 @@
 		2B673D54284B768800BC3AC4 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D53284B768800BC3AC4 /* APIConstants.swift */; };
 		2B673D57284B78F500BC3AC4 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D56284B78F500BC3AC4 /* MoviesModel.swift */; };
 		2B673D59284B7A5B00BC3AC4 /* ExtrainfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B673D58284B7A5B00BC3AC4 /* ExtrainfoModel.swift */; };
+		2BF432C3284D26C8007F3379 /* MoviesDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF432C2284D26C8007F3379 /* MoviesDetailsVC.swift */; };
 		63367AA29EA77035E100200D /* Pods_VoiroMoviea_VoiroMovieaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E114282F7042EC37BA264245 /* Pods_VoiroMoviea_VoiroMovieaUITests.framework */; };
 		820F2B35C95FBA5B088C637D /* Pods_VoiroMovieaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48454276557A59440BF40FF /* Pods_VoiroMovieaTests.framework */; };
 		A196CAF01C3EE62552421724 /* Pods_VoiroMoviea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC702955741F7BD6C6F6D481 /* Pods_VoiroMoviea.framework */; };
@@ -73,6 +74,7 @@
 		2B673D53284B768800BC3AC4 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		2B673D56284B78F500BC3AC4 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
 		2B673D58284B7A5B00BC3AC4 /* ExtrainfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrainfoModel.swift; sourceTree = "<group>"; };
+		2BF432C2284D26C8007F3379 /* MoviesDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsVC.swift; sourceTree = "<group>"; };
 		4BDB800A0EEA4C540B5AF196 /* Pods-VoiroMoviea-VoiroMovieaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiroMoviea-VoiroMovieaUITests.release.xcconfig"; path = "Target Support Files/Pods-VoiroMoviea-VoiroMovieaUITests/Pods-VoiroMoviea-VoiroMovieaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		651A390B97A797FCBD4C5C8F /* Pods-VoiroMovieaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiroMovieaTests.release.xcconfig"; path = "Target Support Files/Pods-VoiroMovieaTests/Pods-VoiroMovieaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A48454276557A59440BF40FF /* Pods_VoiroMovieaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiroMovieaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 			children = (
 				2B180037284B929600126DD8 /* Cell */,
 				2B673D23284B75AB00BC3AC4 /* ViewController.swift */,
+				2BF432C2284D26C8007F3379 /* MoviesDetailsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				2B180042284BFA5500126DD8 /* MoviesCD+CoreDataClass.swift in Sources */,
 				2B673D57284B78F500BC3AC4 /* MoviesModel.swift in Sources */,
 				2B18003D284B956D00126DD8 /* MoviesVM.swift in Sources */,
+				2BF432C3284D26C8007F3379 /* MoviesDetailsVC.swift in Sources */,
 				2B673D24284B75AB00BC3AC4 /* ViewController.swift in Sources */,
 				2B673D20284B75AB00BC3AC4 /* AppDelegate.swift in Sources */,
 				2B673D22284B75AB00BC3AC4 /* SceneDelegate.swift in Sources */,

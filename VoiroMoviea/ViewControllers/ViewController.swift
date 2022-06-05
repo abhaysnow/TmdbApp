@@ -26,14 +26,15 @@ class ViewController: UIViewController {
 //----------------------------------------------
 extension ViewController : UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.moviesList?.results?.count ?? 0
+        print(viewModel.moviesList?.count ?? 0)
+        return viewModel.moviesList?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = moviesTblview.dequeueReusableCell(withIdentifier: "cell") as! MoviesListTableViewCell
-        cell.posterImg.sd_setImage(with: URL(string: APIConstants.BASE_IMAGE_URL + (viewModel.moviesList?.results?[indexPath.row].posterPath ?? "") ) , placeholderImage: #imageLiteral(resourceName: "default-placeholder") , completed: nil)
-        cell.titleTxt.text = viewModel.moviesList?.results?[indexPath.row].title
-        cell.ratingTxt.text = "\(viewModel.moviesList?.results?[indexPath.row].voteAverage ?? 0.0)"
+        cell.posterImg.sd_setImage(with: URL(string: APIConstants.BASE_IMAGE_URL + (viewModel.moviesList?[indexPath.row].posterPath ?? "") ) , placeholderImage: #imageLiteral(resourceName: "default-placeholder") , completed: nil)
+        cell.titleTxt.text = viewModel.moviesList?[indexPath.row].title
+        cell.ratingTxt.text = "\(viewModel.moviesList?[indexPath.row].voteAverage ?? 0.0)"
         return cell
     }
     

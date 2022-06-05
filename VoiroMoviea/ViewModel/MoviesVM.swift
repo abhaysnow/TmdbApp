@@ -9,9 +9,7 @@ import CoreData
 import Foundation
 
 class MoviesVM {
-    
- //   weak var vc: UserDetails?
-    var moviesList : ExtrainfoModel?
+    var moviesList : [MoviesModel]?
     
     //------------------------------------------------------
     
@@ -25,9 +23,11 @@ class MoviesVM {
                     if let data = data {
                         do{
                             let responseString = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as? [String: Any]
-                            let jsonData = try JSONSerialization.data(withJSONObject: responseString ?? [String:Any].self, options: .prettyPrinted)
-                            self.moviesList = try JSONDecoder().decode(ExtrainfoModel.self, from: jsonData)
+                          
+                            let jsonData = try JSONSerialization.data(withJSONObject: responseString?["results"] ?? [String:Any].self, options: .prettyPrinted)
+                            self.moviesList = try JSONDecoder().decode([MoviesModel].self, from: jsonData)
                             completion(true, "Api hit Successfully")
+                            CoreDatabase.shared.saveDataInCoreData(dataForSave: self.moviesList ?? [])
                         } catch let err{
                             print(err.localizedDescription)
                             completion(false, err.localizedDescription)
@@ -41,7 +41,11 @@ class MoviesVM {
             }.resume()
         }else{
             print("Not Connected")
-            completion(false, "Not Connected")
+            CoreDatabase.shared.loadSaveData { data in
+                    self.moviesList = data
+                    completion(true, "Not Connected")
+            }
+            
         }
     }
 }

@@ -20,7 +20,7 @@ struct ExtrainfoModel: Codable {
     let page: Int?
     let posterPath: String?
     let welcomePublic: Bool?
-    let results: [MoviesModel]?
+    var results: [MoviesModel]?
     let revenue, runtime: Int?
     let sortBy: String?
     let totalPages, totalResults: Int?
